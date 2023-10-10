@@ -13,11 +13,11 @@ public class Main {
             System.out.println("Please enter the length of your rectangle here");
             if (scan.hasNextDouble()) {
                 length = scan.nextDouble();
+                scan.nextLine();
                 if (length <= 0) {
                     System.out.println("You have entered an invalid value, Please try again");
                 }
                 if (length > 0) {
-                    scan.nextLine();
                     done1 = true;
                 }
             }
@@ -30,11 +30,11 @@ public class Main {
             System.out.println("Please enter the width of your rectangle here");
             if (scan.hasNextDouble()) {
                 width = scan.nextDouble();
+                scan.nextLine();
                 if (width <= 0) {
                     System.out.println("You have entered an invalid value, Please try again");
                 }
                 if (width > 0) {
-                    scan.nextLine();
                     done2 = true;
                 }
             }
